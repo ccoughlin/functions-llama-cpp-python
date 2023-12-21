@@ -1,5 +1,8 @@
 function_demo
 =
+
+![sample output](https://github.com/ccoughlin/functions-llama-cpp-python/blob/main/llama-cpp-python%20functions%20demo.gif)
+
 This is a simple demo of functions with [llama.cpp](https://github.com/ggerganov/llama.cpp) and [llama-cpp-python](https://github.com/abetlen/llama-cpp-python). The model is given a list of tools and asked to choose which function should be used to answer the user's question. If a match is found to the model's selected function, the function is executed and the final answer is the function's output.
 
 In this demo, we ask for the local weather. The model (hopefully) decides that the `get_weather` tool is the most appropriate choice, we search for the weather and return the first result as our final response.
