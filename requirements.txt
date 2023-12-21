@@ -1,0 +1,6 @@
+duckduckgo-search
+requests
+llama-cpp-python
+huggingface-hub>=0.17.1
+beautifulsoup4
+halo
